@@ -32,10 +32,10 @@ DB_URI = "mongodb+srv://FileExtracter:FvCm7wZ0a9oTw6s0@filetoken.t6d82.mongodb.n
 DB_NAME = os.environ.get("DATABASE_NAME", "fileExtractor")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortner.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "6fd47c5091eb04ef85f668af5fabe5c72b0c89c4")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "256c8d38e9e8c89a5fc555fb7c009a1fc834e5c9")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","leakhubd/1264")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/tutorialfiletoken")
 
 
 #force sub channel id, if you want enable force sub
