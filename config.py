@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://FileExtracter:FvCm7wZ0a9oTw6s0@filetoken.t6d82.mongodb.net/?retryWrites=true&w=majority&appName=Filetoken"
 DB_NAME = os.environ.get("DATABASE_NAME", "fileExtractor")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortner.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "256c8d38e9e8c89a5fc555fb7c009a1fc834e5c9")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "urlwala.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "ffb15163f4f4523be5e8286a498cc64d954445f0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/tutorialfiletoken")
