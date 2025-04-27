@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://FileExtracter:FvCm7wZ0a9oTw6s0@filetoken.t6d82.mongodb.net/?retryWrites=true&w=majority&appName=Filetoken"
 DB_NAME = os.environ.get("DATABASE_NAME", "fileExtractor")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "urlwala.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ffb15163f4f4523be5e8286a498cc64d954445f0")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Bharatlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "b97d242423b9fbbcae28ad2684df74dc7729e165")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/tutorialfiletoken")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/xstreamfiletoken")
 
 
 #force sub channel id, if you want enable force sub
